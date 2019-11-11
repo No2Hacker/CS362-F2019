@@ -12,10 +12,8 @@ char inputChar()
 
 char *inputString()
 {
-    int maxLen = 10;
-    int len = 1 + rand() % maxLen;
     char *s;
-    for (int i = 0; i < len; ++i) {
+    for (int i = 0; i < 5; ++i) {
          s[i] = rand() % 127;
     }
     return s;
